@@ -1,0 +1,136 @@
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url(imagens/sunnydale.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.biblioteca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url(imagens/biblioteca.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.over {
+    background-image: url(imagens/gameover.jpg);
+    background-size: 100%;
+}
+
+.win {
+    background-image: url(imagens/win.png);
+    background-size: 100%;
+}
+
+.briga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url(imagens/briga.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: 10%;
+}
+
+.logo {
+    width: 450px;
+    height: 170px;
+    flex-grow: inherit;
+}
+
+.paragrafo{
+    text-align: center;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #574b4b80;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+
+}
+
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.personagens {
+    width: 100px;
+    height: 120px;
+}
+
+.armas {
+    width: 100px;
+    height: 120px;
+}
+
+h4{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.botao{
+    border:1px solid gray;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+li {
+    display: flex;
+    width: 30%;
+    margin: 10px;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-display: bold;
+}
+
+footer {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: rgb(0, 0, 0);
+        width: 70%;
+        text-shadow: rgb(255 254 254) 2px 1px;
+}
+
